@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(pigeon_data)
     for key in keys
       for i, j in pigeon_data[key]
         if j.include?(name)
-           new_hash[name][key].append(i)
+           new_hash[name][key].append(i.to_s)
         end
       end
     end
