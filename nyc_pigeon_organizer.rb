@@ -1,7 +1,6 @@
 def nyc_pigeon_organizer(pigeon_data)
   all_name = []
   for i,j in pigeon_data
-  #   p i,j
     for k in j
       all_name= all_name + (k[1].each{|name| name})
     end
